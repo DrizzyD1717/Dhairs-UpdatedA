@@ -1,0 +1,54 @@
+.contact {
+  padding: 3rem 3rem;
+}
+
+.contact .contactContent h2 {
+  line-height: 2.5rem;
+}
+
+.contact .contactContent form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+
+.contact .contactContent form input {
+  display: block;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+}
+
+.contact .contactContent form select {
+  padding: 0.5rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+  font-weight: bold;
+}
+
+.contact .contactContent form button {
+  display: block;
+  padding: 0.5rem 1rem;
+  width: 200px;
+  margin: 2rem auto;
+  border-radius: 10px;
+  border: 2px solid;
+  outline: none;
+  background: none;
+  font-weight: bold;
+}
+
+.contact .contactContent form textarea {
+  padding: 2rem;
+  border: none;
+  outline: none;
+  border-bottom: 2px solid;
+}
+
+.contact .contactContent form button:hover {
+  background: #000;
+  color: white;
+}

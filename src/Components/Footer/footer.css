@@ -1,0 +1,33 @@
+footer {
+  width: 100%;
+  padding: 3rem 3rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 0 0 0;
+  background: rgb(211, 211, 211);
+}
+
+footer .footerContent {
+  width: 50%;
+  min-width: 300px;
+}
+
+footer .footerContent nav {
+  padding: 3rem 0;
+  font-size: 2rem;
+}
+
+footer .footerContent .contactLinks {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 0;
+  font-size: 3rem;
+  color: var(--main-color2);
+}
+
+footer .footerContent .contactLinks a {
+  color: var(--main-color2);
+  padding-right: 1.5rem;
+}

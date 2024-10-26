@@ -1,0 +1,143 @@
+.mobileNav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 2rem 3rem;
+  border-bottom: 2px solid;
+}
+
+.mobileNav .hamburgerMenu {
+  font-size: 2rem;
+}
+
+.actualNav {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  height: 100vh;
+  width: 100%;
+  z-index: 100;
+}
+
+.actualNav nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 200px;
+  background: var(--main-color2);
+  height: 100%;
+  padding: 5rem 2rem;
+}
+
+.actualNav .close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  color: white;
+}
+
+.actualNav nav a {
+  display: inline-block;
+  margin-bottom: 2rem;
+  color: white;
+}
+
+@media (min-width: 700px) {
+  .mobileNav {
+    display: none;
+  }
+}
+
+/* .openMenu {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.mobileNav {
+  display: none;
+} */
+
+/* .mobileMenuLinks {
+  width: 300px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  min-height: 100vh;
+  z-index: 100;
+  padding: 5rem 1.5rem;
+  text-align: center;
+  transition: 1s ease-in;
+  background: rgba(0, 0, 0, 0.5);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  transition: all ease-in 1s;
+}
+
+.mobileMenuLinks .closeMenuBtn {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.mobileMenuLinks a {
+  color: white;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.mobileMenuLinks a span {
+  padding-right: 0.4rem;
+  font-weight: bold;
+}
+
+.myself {
+  margin-top: 3rem;
+}
+
+.myself a {
+  color: grey;
+  padding-bottom: 0.5rem;
+  text-decoration: underline;
+}
+
+@media (max-width: 1000px) {
+  .mobileNavigationOpen {
+    height: 130px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+    align-items: center;
+    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.mobileMenuLinks .active {
+  position: relative;
+  width: 100%;
+}
+
+.mobileMenuLinks .active::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 100%;
+  background-color: white;
+  top: 0;
+  right: -1.3rem;
+} */

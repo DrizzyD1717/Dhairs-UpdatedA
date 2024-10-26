@@ -1,0 +1,29 @@
+.accordion {
+  width: 100%;
+  padding: 3rem 2rem;
+  font-weight: bold;
+}
+
+.accordion h2 {
+  margin-bottom: 2rem;
+  color: var(--main-color2);
+  text-align: center;
+}
+
+.accordion .individualQuestion {
+  margin: 0rem auto 2rem auto;
+  max-width: 400px;
+}
+
+.accordion .individualQuestion .question {
+  background: var(--main-color2);
+  padding: 1rem;
+  border-radius: 20px;
+}
+
+.accordion .individualQuestion .answer {
+  background: var(--off-white);
+  padding: 1rem;
+  border-radius: 20px;
+  margin-left: 3rem;
+}
